@@ -1,4 +1,5 @@
 body {
+  height: 135px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,5 +14,14 @@ code {
 }
 
 .square {
-  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  /* padding: 15px; */
+}
+
+.board-row {
+  /* box-sizing: border-box; */
+  display: flex;
 }
